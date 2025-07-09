@@ -98,6 +98,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 7%;
 }
 /* .info--one{
     width: 60%;
@@ -124,3 +125,32 @@
 }
 
 /* PHOTO */
+
+.photo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+.zeroone {
+  width: 33.3333%; /* рівно 1/3 ширини */
+  box-sizing: border-box; /* щоб padding/margin не додавались зверху */
+}
+.info-zero{
+    background-color: #DFE9F1;
+    border-radius: 12px;
+    overflow: hidden; /* щоб заокруглення працювало на картинці */
+}
+.info-zero img{
+    width: 100%;    /* картинка розтягується по ширині блоку */
+    height: auto;   /* зберігає пропорції */
+    display: flex;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.text-zero{
+    gap: 50px;
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+}
