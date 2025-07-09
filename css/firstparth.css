@@ -96,10 +96,12 @@
 }
 .info{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.info--one{
+/* .info--one{
     width: 60%;
-}
+} */
 .info h1{
     font-size: 68px;
     font-weight: 500;
@@ -107,6 +109,8 @@
 .info--two{
     display: flex;
     flex-direction: column;
+
+    gap: 50px;
 }
 .info--two img{
     background-color: #DFE9F1;
@@ -115,4 +119,8 @@
     width: 20px;
     height: 20px;
 }
-.info--two p {}
+.info--two p {
+    font-size: 24px;
+}
+
+/* PHOTO */
