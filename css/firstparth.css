@@ -105,7 +105,7 @@
     display: flex;
     justify-content: space-between;
     align-items: end;
-    margin-bottom: 7%;
+    margin-bottom: 10%;
     
 }
 /* .info--one{
@@ -312,5 +312,25 @@
     }
     .logo p{
         font-size: 15px;
+    }
+}
+@media (max-width: 450px){
+    .logo p{
+        font-size: 13px ;
+    }
+    .menu p{
+        font-size: 12px;
+    }
+    .menu img{
+        width: 20px;
+    }
+    .info--one h1{
+        font-size: 16px;
+    }
+    .info--two p{
+        font-size: 12px;
+    }
+    .info--two img{
+        width: 10px;
     }
 }
