@@ -9,7 +9,7 @@
 .footer{
     display: flex;
     align-items: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color: #DFE9F1;
     margin: 0 auto;
     width: 100%;
@@ -126,6 +126,7 @@
     padding: 10px;
     width: 20px;
     height: 20px;
+    box-sizing: content-box;
 }
 .info--two p {
     font-size: 24px;
@@ -142,8 +143,8 @@
     flex-wrap: wrap;
 }
 .zeroone {
-  flex:1 1 calc(33.333% - 20px);
-  box-sizing: border-box; /* щоб padding/margin не додавались зверху */
+    flex:1 1 calc(33.333% - 20px);
+    box-sizing: border-box; /* щоб padding/margin не додавались зверху */
 }
 .info-zero{
     background-color: #DFE9F1;
@@ -237,4 +238,15 @@
         font-size: 14px;
     }   
 }
-@media (max-width: 720px){}
+@media (max-width: 720px){
+    .info h1{
+        font-size:25px;
+    }
+    .info--two p {
+       font-size: 18px;
+    }
+    .photo{
+        gap: 50px;
+        margin-top: 0px;
+    }
+}
