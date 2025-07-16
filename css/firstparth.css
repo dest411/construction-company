@@ -17,7 +17,8 @@
     border: none;
     border-radius: 12px;
     padding: 10px;
-    justify-content:space-between ;
+    justify-content:space-between;
+    position: relative;
 }
 .logo{
     display: flex;
@@ -51,6 +52,29 @@
 .footer nav ul li a{
     color: black;
     font-weight: 600;
+}
+.control-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    position: fixed;
+    top: 100px;
+    right: -250px;
+    background-color: #DFE9F1;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 100;
+    transition: right 100ms ease;
+    cursor: pointer;
+    font-size: 50px !important;
+}
+.control-menu p {
+  font-size: 50px; /* або будь-який потрібний розмір */
+}
+.control-menu.open{
+    right: 25px;
+    transition: right 300ms ease;
 }
 
 /* HERO */
