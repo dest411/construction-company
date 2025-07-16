@@ -39,6 +39,10 @@
     width: 20px;
     display: none;
 }
+.menuphone{
+    width: 10px;
+    display: none;
+}
 .footer nav ul{
     display: flex;
     gap: 30px;
@@ -212,7 +216,9 @@
     }
     .menuimg{
         display: flex;
+        cursor: pointer;
     }
+    
     .menu{
         display: flex;
         align-items: center;
@@ -332,5 +338,72 @@
     }
     .info--two img{
         width: 10px;
+    }
+}
+@media (max-width: 400px){
+    .menu p{
+        display: none;
+    }
+    .menuphone{
+        display: flex;
+        opacity: 0.8;
+        transform: scale(0.8);
+        align-items: center;
+    }
+    .hero h1{
+        font-size: 22px;
+        width: 400px;
+    }
+    .hero h1 span{
+        font-size: 8px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    .hero button{
+        font-size: 10px;
+        padding: 40px 17px;
+    }
+    .info--one h1{
+        font-size: 14px;
+    }
+    .info--two p{
+        font-size: 11px;
+    }
+    .info--two img{
+        width: 12px;
+        padding: 8px;
+    }
+    .text-zero{
+        font-size: 22px;
+    }
+    .info-zero{
+        transform: scale(0.9);
+    }
+    .photo{
+        gap: 10px;
+    }
+}
+@media (max-width: 340px){
+    .hero h1{
+        font-size: 18px;
+        width: 400px;
+    }
+    .hero h1 span{
+        font-size: 8px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    .hero button{
+        font-size: 9px;
+        padding: 35px 15px;
+        font-weight: 600;
+    }
+    .info-zero{
+        transform: scale(0.9);
+    }
+    .text-zero{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
     }
 }
