@@ -280,6 +280,13 @@
         gap: 50px;
         margin-top: 0px;
     }
+    .control-menu p {
+        font-size: 15px !important;
+    }
+    .control-menu{
+        padding: 20px;
+    }
+
 }
 @media (max-width: 650px){
     .hero h1{
@@ -323,7 +330,13 @@
     .info--two p{
         font-size: 13px;
     }
-    
+    .control-menu p {
+        font-size: 15px !important;
+    }
+    .control-menu{
+        gap: 15px;
+        padding: 15px;
+    }
 }
 @media (max-width: 500px){
     .hero h1{
